@@ -5,11 +5,53 @@
 /* черный второй #000000 */
 /* белый  прозрачность 60%  #FFFFFF */
 :root {
-  --primary-color-text: #212121;
+  --primary-grey-text: #757575 ;
   --primary-white-color: #ffffff;
+  --blu-color:#2196F3;
+  --secondary-black-color:#212121;
+  --black-color:#000000;
+  --secondary-white-color:rgba(255,255,255,.6);
+  --background-dark:#2F303A;
 }
 
 body {
-  color: var(--primary-color-text);
+  color: var(--primary-grey-text);
   background:var(--primary-white-color);
+}
+ul {
+  list-style: none;
+}
+.logo-one {
+color: var(--blu-color);
+}
+.logo-two {
+  color: var(--black-color);
+}
+/* Sate nav */
+.site-nav-link,.email {
+  color:var(--secondary-black-color);
+}
+
+.tel {
+  color: var(--primary-grey-text);
+}
+/* Main */
+.hero {
+  color: var(--primary-white-color);
+  background-color: var(--background-dark);
+}
+.button {
+background: var(--blu-color);  
+}
+.section {
+  color: var(--secondary-black-color);
+}
+/* Footer */
+.address {
+  color: var(--primary-white-color);
+  background-color: var(--background-dark);
+}
+.footer-mail, .footer-tel {
+  color: var(--secondary-white-color);
+  background-color: var(--background-dark);
 }
