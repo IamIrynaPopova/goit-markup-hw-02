@@ -15,27 +15,35 @@ body {
 ul {
   list-style: none;
 }
+
+/* ------------------------------Page Hero --------------------------- */
 /* Logo */
 
 .logo {
   text-decoration: none;
-}
-
-.logo-one {
   color: var(--blu-color);
 }
 
 .logo-two {
   color: var(--black-color);
 }
+
 /* Sate nav */
 
-.site-nav a {
+.site-nav .link.current {
+color: var(--blu-color);  
+}
+
+.site-nav a{
   color: var(--secondary-black-color);
   text-decoration: none;
 }
+/* .current {
+color: var(--blu-color); 
+} */
 
-.site-nav .tel {
+
+.site-nav .grey {
   color: var(--primary-grey-text);
 }
 
@@ -52,9 +60,17 @@ ul {
 .button {
   background: var(--blu-color);
 }
-.section {
+.title-section  {
   color: var(--secondary-black-color);
 }
+.title-section-work {
+color: var(--secondary-black-color);  
+}
+
+.title-section-team {
+color: var(--secondary-black-color);
+}
+
 /* Footer */
 
 .address,
@@ -70,11 +86,11 @@ ul {
   text-decoration: none;
 }
 
-.contacts .contact:hover,
-.contacts .contact:focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--blu-color);
 }
-.contacts .address:hover,
-.contacts .address:focus {
-  color: var(--blu-color);
-}
+
+/* ------------------------------Page Portfolio --------------------------- */
+
+ /* Buttons */
