@@ -12,6 +12,11 @@
 body {
   color: var(--primary-grey-text);
   background: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 ul {
   list-style: none;
@@ -23,6 +28,10 @@ ul {
 .logo {
   text-decoration: none;
   color: var(--blu-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo-two {
@@ -38,13 +47,18 @@ ul {
 .site-nav a {
   color: var(--secondary-black-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-/* .current {
-color: var(--blu-color); 
-} */
 
 .site-nav .grey {
   color: var(--primary-grey-text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -56,19 +70,50 @@ color: var(--blu-color);
 .hero {
   color: var(--primary-white-color);
   background-color: var(--background-dark);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button {
   background: var(--blu-color);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
+
 .title-section {
   color: var(--secondary-black-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 .title-section-work {
   color: var(--secondary-black-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.hero-section-team {
+  color: var(--secondary-black-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .title-section-team {
   color: var(--secondary-black-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 /* Footer */
@@ -80,10 +125,20 @@ color: var(--blu-color);
   text-decoration: none;
 }
 
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
 .contact {
   color: var(--secondary-white-color);
   background-color: var(--background-dark);
   text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .contacts .link:hover,
@@ -98,7 +153,15 @@ color: var(--blu-color);
   color: var(--secondary-black-color);
   background-color: var(--background-button-color);
   cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
+
 .button-nav:hover,
 .button-nav:focus {
   background-color: var(--blu-color);
@@ -108,10 +171,18 @@ color: var(--blu-color);
 /* Projects */
 .project {
   color: var(--secondary-black-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .item-project {
   color: var(--primary-grey-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 .projects .link-projects {
