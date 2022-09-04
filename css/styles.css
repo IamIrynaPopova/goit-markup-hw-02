@@ -47,6 +47,7 @@ ul {
 .site-nav a {
   color: var(--secondary-black-color);
   text-decoration: none;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
