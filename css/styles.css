@@ -6,6 +6,7 @@
   --black-color: #000000;
   --secondary-white-color: rgba(255, 255, 255, 0.6);
   --background-dark: #2f303a;
+  --background-button-color: #f5f4fa;
 }
 
 body {
@@ -31,17 +32,16 @@ ul {
 /* Sate nav */
 
 .site-nav .link.current {
-color: var(--blu-color);  
+  color: var(--blu-color);
 }
 
-.site-nav a{
+.site-nav a {
   color: var(--secondary-black-color);
   text-decoration: none;
 }
 /* .current {
 color: var(--blu-color); 
 } */
-
 
 .site-nav .grey {
   color: var(--primary-grey-text);
@@ -60,15 +60,15 @@ color: var(--blu-color);
 .button {
   background: var(--blu-color);
 }
-.title-section  {
+.title-section {
   color: var(--secondary-black-color);
 }
 .title-section-work {
-color: var(--secondary-black-color);  
+  color: var(--secondary-black-color);
 }
 
 .title-section-team {
-color: var(--secondary-black-color);
+  color: var(--secondary-black-color);
 }
 
 /* Footer */
@@ -93,4 +93,27 @@ color: var(--secondary-black-color);
 
 /* ------------------------------Page Portfolio --------------------------- */
 
- /* Buttons */
+/* Buttons */
+.button-nav {
+  color: var(--secondary-black-color);
+  background-color: var(--background-button-color);
+  cursor: pointer;
+}
+.button-nav:hover,
+.button-nav:focus {
+  background-color: var(--blu-color);
+  color: var(--primary-white-color);
+}
+
+/* Projects */
+.project {
+  color: var(--secondary-black-color);
+}
+
+.item-project {
+  color: var(--primary-grey-text);
+}
+
+.projects .link-projects {
+  text-decoration: none;
+}
