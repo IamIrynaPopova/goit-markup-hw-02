@@ -7,6 +7,7 @@
   --secondary-white-color: rgba(255, 255, 255, 0.6);
   --background-dark: #2f303a;
   --background-button-color: #f5f4fa;
+  --background-button-color-blu: #188ce8;
 }
 
 body {
@@ -68,9 +69,12 @@ ul {
 }
 
 /* Main */
+.section-hero {
+  background-color: var(--background-dark);
+}
+
 .hero {
   color: var(--primary-white-color);
-  background-color: var(--background-dark);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -81,12 +85,16 @@ ul {
 .button {
   background: var(--blu-color);
   color: var(--primary-white-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--background-button-color-blu);
 }
 
 .title-section {
@@ -118,11 +126,13 @@ ul {
 }
 
 /* Footer */
+.footer {
+  background-color: var(--background-dark);
+}
 
 .address,
 .logo-three {
   color: var(--primary-white-color);
-  background-color: var(--background-dark);
   text-decoration: none;
 }
 
@@ -134,7 +144,6 @@ ul {
 }
 .contact {
   color: var(--secondary-white-color);
-  background-color: var(--background-dark);
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
@@ -154,7 +163,7 @@ ul {
   color: var(--secondary-black-color);
   background-color: var(--background-button-color);
   cursor: pointer;
-  font-family: Roboto, sans-serif;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -170,6 +179,21 @@ ul {
 }
 
 /* Projects */
+
+/* Main */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .project {
   color: var(--secondary-black-color);
   font-weight: 700;
